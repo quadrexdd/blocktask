@@ -1,0 +1,22 @@
+uuid: 731c53e7-af0f-4a8b-9a06-25b1c673178b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - quadrextheme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: quadrextheme_local_tasks
+theme: quadrextheme
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

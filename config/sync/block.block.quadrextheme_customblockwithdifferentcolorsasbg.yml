@@ -1,0 +1,28 @@
+uuid: babdb33d-8bb0-47df-9570-717c85bea683
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_components
+    - system
+  theme:
+    - quadrextheme
+id: quadrextheme_customblockwithdifferentcolorsasbg
+theme: quadrextheme
+region: content
+weight: 0
+provider: null
+plugin: custom_component_block
+settings:
+  id: custom_component_block
+  label: 'Custom block with different colors as bg'
+  provider: custom_components
+  label_display: '0'
+  background_color:
+    color: green
+    text: Hello1
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

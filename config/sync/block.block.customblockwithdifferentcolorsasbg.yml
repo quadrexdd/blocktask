@@ -1,0 +1,28 @@
+uuid: e640a3bf-54c1-4687-b184-acf354aed24a
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_components
+    - system
+  theme:
+    - bartik
+id: customblockwithdifferentcolorsasbg
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: custom_component_block
+settings:
+  id: custom_component_block
+  label: 'Custom block with different colors as bg'
+  provider: custom_components
+  label_display: '0'
+  background_color:
+    color: green
+    text: Hello1
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
